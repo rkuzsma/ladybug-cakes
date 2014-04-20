@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Ladybug Cakes specializes in delectable cupcakes with the ingredient conscious consumer in mind. Whether you're vegan, allergic, gluten intolerant or a diet conscious foodie, we make your favorite treats without any sacrifice in flavor!">
+	<meta name="author" content="Beth Kuzsma">
+	<link rel="shortcut icon" href="ico/favicon.png">
+
+	<title>Ladybug Cakes</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="lib/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet">
+
+	<style type="text/css">
+	blockquote
+	{
+		clear: both;
+		font-style: italic;
+		margin-left: 10px;
+		margin-bottom: 50px;
+		margin-right: 50px;
+		padding: 10px 10px 10px 50px;
+		position: relative;
+		quotes: none;
+		background: url('img/open-quote.png') 0 0 no-repeat;
+		border: 0px;
+		font-size: 120%;
+		line-height: 200%;
+	}
+	</style>
+
+
+</head>
+
+<body>
+
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-inner">
+				<div class="row">
+					<div class="col-md-8">
+						<h1 class="brand">Ladybug Cakes</h1>
+						<p class="brand-subtext">Vegan? Food sensitivities? Allergies? Picky? We have you covered!</p>
+					</div>
+					<div class="col-md-4">
+						<p class="text-right"><img src="img/logo-cupcake-green-resized.png" height="100"/></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-header-container" id='foo'>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li class="active"><a href="testimonials.html">Testimonials</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="text-left">
+			<h1 style="margin-bottom: 50px">What our customers are saying...</h1>
+		</div>
+		<div style="width:50%;margin-left:20px;">
+
+			<ul class="bxslider">
+				<li>
+					<blockquote>I can't believe the cupcakes are vegan. Best cupcakes I've ever had!
+						<p style="text-align:right;margin-right:20px;">- Rich</p> 
+					</blockquote>
+				</li>
+				<li><blockquote>I can't eat soy or egg, so cupcakes were out of the question for me until I found these. Thank you Beth!
+					<p style="text-align:right;margin-right:20px;">- Quinn</p>
+				</blockquote>
+			</li>
+			<li><blockquote>The coconut cupcakes are to die for.
+				<p style="text-align:right;margin-right:20px;">- Anonymous</p>
+			</blockquote></li>
+		</ul>
+
+	</div>
+</div>
+
+<div id="footer">
+	<div class="container text-center">
+		<p class="text-muted">Email us at <a href="mailto:website@ladybug-cakes.com">website@ladybug-cakes.com</a></p>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="lib/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {           
+	$('.bxslider').bxSlider({
+		mode: 'vertical',
+		slideMargin: 3,
+		auto:true
+	});             
+});
+</script>
+
+</body></html>

@@ -1,0 +1,46 @@
+/* Used for sticky footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+	font-family: Palatino Linotype;
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+
+.brand {
+	font-size: 300%;
+	color: #FFFFFF;
+}
+.brand-subtext {
+	color: #999;
+	size: 65%;
+}
+.navbar-header-container {
+	margin-left: 39px;
+	margin-right: 39px;
+}
+.navbar-default {
+	background-color: #66412f;
+}
+.navbar-collapse {
+	background-color: #b6f8ff;
+	color: #66412f;
+}
+.navbar-nav li a {
+	color: #ffffff;
+}
+.navbar-nav li a:focus {
+	color: #b6f8ff;
+}
+
